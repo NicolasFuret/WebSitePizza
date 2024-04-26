@@ -400,11 +400,29 @@ h1,h2,h3,h4,h5{
 
 
 
+/*----------------pa la galeriaa------------------*/
+div.galeria{
+	margin: 10px 20px;
+	box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 lightblue;
+	float: left;
+	width: 300px;
+}
 
+div.galeria img{
+	width: 100%;
+	height: auto;
+}
 
+div.galeria:hover{
+	border: 1px lightcoral;
+	transform: rotate(-3deg);
+}
 
-
-
+div.pie{
+	text-align: center;
+	text-shadow: 2px 2px 10px rgb(179, 3, 47);
+	padding: 10px;
+}
 
 
 
